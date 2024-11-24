@@ -1,0 +1,70 @@
+{
+  "title": "Farama Foundation RL Hub",
+  "description": "Modern showcase platform for Farama's reinforcement learning ecosystem",
+  "features": {
+    "core": {
+      "hero": {
+        "overview": true,
+        "mission": true,
+        "callToAction": true
+      },
+      "repositories": {
+        "showcase": {
+          "demos": true,
+          "codeExamples": true,
+          "filtering": ["category", "tags"],
+          "search": "real-time",
+          "cards": {
+            "metrics": true,
+            "preview": true
+          }
+        },
+        "integration": {
+          "installation": "one-click",
+          "playground": true,
+          "tutorials": true,
+          "benchmarks": true,
+          "dependencies": true,
+          "compatibility": true
+        }
+      },
+      "docs": {
+        "quickStart": true,
+        "guides": true,
+        "api": true
+      },
+      "community": {
+        "forum": true,
+        "contributors": true,
+        "events": true
+      }
+    },
+    "technical": {
+      "frontend": {
+        "framework": "next@14",
+        "router": "app",
+        "styling": ["tailwind", "shadcn-ui"],
+        "language": "typescript"
+      },
+      "performance": {
+        "ssr": true,
+        "fcp": "<2s",
+        "offline": true
+      },
+      "ux": {
+        "theme": ["light", "dark"],
+        "responsive": true,
+        "animations": true
+      },
+      "integrations": {
+        "github": true,
+        "analytics": true
+      },
+      "seo": true,
+      "deployment": {
+        "platform": "netlify",
+        "ci": true
+      }
+    }
+  }
+}
